@@ -1,0 +1,47 @@
+.rootDiv{
+    background-image: url('https://preview.redd.it/565foh0a34951.jpg?auto=webp&s=b465337e79b71ce818e437abb13dfbc9acdc1f25');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.image{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 400px;
+    width: 550px;
+    image-rendering: optimizeQuality;
+    border: 3px solid white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.178);
+    
+}
+
+.details{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 550px;
+    height: 200px;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.return{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

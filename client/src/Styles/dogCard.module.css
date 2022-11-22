@@ -1,0 +1,81 @@
+.dogCardContainer{
+    margin-top: 25px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    user-select:none;
+    image-rendering:optimizeSpeed;
+}
+
+.image{
+    margin-top: -5px;
+    width: 290px;
+    height: 230px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -4px;
+    width: 290px;
+    height: 160px;
+    font-size: small;
+    /* background-image: url('https://media.istockphoto.com/id/653874468/es/foto/textura-de-muro-de-hormig%C3%B3n-pintado-blanco-transparente-fondo.jpg?s=612x612&w=0&k=20&c=8ku1lqr20Du71jeVPSCOSS6bX75yBtqldVivNgvssts='); */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.521);
+   
+}
+
+.dogCardContainer{
+    text-decoration: none;
+    
+}
+
+.stats ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+   
+    margin-top: -10px;
+}
+
+
+.stats ul li{
+    padding: 0px 5px;
+    margin-top: -5px;
+
+}
+
+.weights{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link h3{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+

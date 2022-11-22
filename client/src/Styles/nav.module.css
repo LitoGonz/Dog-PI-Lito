@@ -1,0 +1,40 @@
+.rootDiv{
+    background-color: rgb(224, 138, 67);
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid black;
+    height: 5vh;
+    border-bottom: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+display: flex;
+text-decoration: none;
+color: black;
+border: 2px solid rgb(2, 2, 2);
+width: fit-content;
+font-size: x-large;
+margin-top: 4px;
+margin-left: 10px;
+padding: 2px;
+border-radius: 3px;
+background-color: rgba(255, 255, 255, 0.493);
+}
+.createDog{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(2, 2, 2);
+    width: fit-content;
+    font-size: x-large;
+    margin-top: 4px;
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.493);
+    }
